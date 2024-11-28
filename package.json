@@ -1,0 +1,28 @@
+{
+  "name": "stradivarius",
+  "version": "1.0.0",
+  "description": "Gino Carnevale - Technical Interview with Stradivarius",
+  "main": "index.js",
+  "scripts": {
+    "test": "cypress run",
+    "open": "cypress open",
+    "test_chrome": "cypress run --browser chrome",
+    "test_firefox": "cypress run --browser firefox" 
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ginocarnevale/stradivarius_PT.git"
+  },
+  "author": "Gino Carnevale",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ginocarnevale/stradivarius_PT/issues"
+  },
+  "homepage": "https://github.com/ginocarnevale/stradivarius_PT#readme",
+  "dependencies": {
+    "cypress": "^13.16.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.7.2"
+  }
+}
